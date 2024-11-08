@@ -11,18 +11,18 @@
       @include('layouts.backend.__includes.sidebar')
 
       <div class="d-flex flex-column flex-row-fluid wrapper" id="kt_wrapper">
-        <div id="kt_header" class="header  header-fixed " >
-          <div class=" container-fluid  d-flex align-items-stretch justify-content-between">
+        <div id="kt_header" class="header header-fixed">
+          <div class="container-fluid d-flex align-items-stretch justify-content-between">
             @include('layouts.backend.__includes.header-left')
             @include('layouts.backend.__includes.header-right')
           </div>
         </div>
 
-        <div class="content  d-flex flex-column flex-column-fluid" id="kt_content">
+        <div class="content d-flex flex-column flex-column-fluid" id="kt_content">
           @include('layouts.backend.__includes.subheader')
           <div class="d-flex flex-column-fluid">
-            <div class=" container ">
-              <p>Page content goes here...</p>
+            <div class="container">
+              <p> Blank Page </p>
             </div>
           </div>
         </div>
@@ -32,10 +32,10 @@
     </div>
   </div>
 
-  @include('layouts.backend.__includes.topbar.user')
-  @include('layouts.backend.__includes.topbar.quick-cart')
-  @include('layouts.backend.__includes.topbar.quick-panel')
-  @include('layouts.backend.__includes.topbar.chat-panel')
+  @include('layouts.backend.__includes.topbar.modal-user')
+  @include('layouts.backend.__includes.topbar.modal-quick-cart')
+  @include('layouts.backend.__includes.topbar.modal-quick-panel')
+  @include('layouts.backend.__includes.topbar.modal-chat-panel')
 
   @include('layouts.backend.__includes.scroll-top')
   @include('layouts.backend.__includes.sticky-toolbar')

@@ -9,7 +9,7 @@
     </a>
   </div>
   <!--end::Header-->
-
+  
   <!--begin::Content-->
   <div class="offcanvas-content">
     <!--begin::Wrapper-->
@@ -17,15 +17,15 @@
       TEST
 
     </div>
-      <!--end::Wrapper-->
+    <!--end::Wrapper-->
 
-      <!--begin::Purchase-->
-      <div class="offcanvas-footer">
-        <a href="https://1.envato.market/EA4JP" target="_blank" class="btn btn-block btn-danger btn-shadow font-weight-bolder text-uppercase">
-          Buy Metronic Now!
-        </a>
-      </div>
-      <!--end::Purchase-->
+    <!--begin::Purchase-->
+    <div class="offcanvas-footer">
+      <a href="https://1.envato.market/EA4JP" target="_blank" class="btn btn-block btn-danger btn-shadow font-weight-bolder text-uppercase">
+        Buy Metronic Now!
+      </a>
     </div>
-    <!--end::Content-->
+    <!--end::Purchase-->
   </div>
+  <!--end::Content-->
+</div>
